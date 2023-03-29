@@ -1,5 +1,4 @@
-<?php if ( ( ! isset( $properties['enable_images'] ) || $properties['enable_images'] != '1' ) || ( forminator_array_value_exists( $properties, 'visual_style' ) && ( $properties['visual_style'] != 'grid' ) ) ) { ?>
-	#forminator-module-<?php echo $properties['form_id'] ?> .forminator-radio:not(.forminator-radio-inline) {
+#forminator-module-<?php echo $properties['form_id'] ?> .forminator-radio:not(.forminator-radio-inline) {
 		<?php if ( isset( $properties['answers-spacing'] ) && $properties['answers-spacing'] == 'open' ) { ?>
 			margin: 20px 0 10px;
 		<?php } else if ( isset( $properties['answers-spacing'] ) && $properties['answers-spacing'] == 'enclosed' ) { ?>

@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-response-message.forminator-error {
+#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-response-message.forminator-error {
 		<?php if ( forminator_array_value_exists( $properties, 'response-error-background' ) && !empty( $properties['response-error-background'] ) ) { ?>
 			background-color: <?php echo $properties['response-error-background'] ?>;
 		<?php } else { ?>

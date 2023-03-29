@@ -1,6 +1,5 @@
 <!-- Keep the css here for faster loading -->
-<style type="text/css">
-	.wp-admin .sui-wrap .sui-summary .sui-summary-details .forminator-search-modules {
+<style type="text/css">.wp-admin .sui-wrap .sui-summary .sui-summary-details .forminator-search-modules {
 		padding-top: 18px;
 		margin-bottom: -18px;
 	}
@@ -38,5 +37,4 @@
 		transform: scale(0.9);
 		-webkit-transform: scale(0.9);
 		-moz-transform: scale(0.9);
-	}
-</style>
+	}</style>

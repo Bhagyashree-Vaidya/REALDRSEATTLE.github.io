@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-repeater-action-button {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-repeater-action-button {
 		<?php if ( forminator_array_value_exists( $properties, 'repeater-button-background' ) ) { ?>
 			background-color: <?php echo $properties['repeater-button-background'] ?>;
 		<?php } else { ?>

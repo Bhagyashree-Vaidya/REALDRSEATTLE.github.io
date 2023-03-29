@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-multiselect {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-multiselect {
 		<?php if ( forminator_array_value_exists( $properties, 'multiselect-border' ) && !empty( $properties['multiselect-border'] ) ) { ?>
 			border-color: <?php echo $properties['multiselect-border'] ?>;
 		<?php } else { ?>

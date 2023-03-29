@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'form-font-family' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-title {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-title {
 		<?php if ( forminator_array_value_exists( $properties, 'cform-title-font-size' ) ) { ?>
 			font-size: <?php echo $properties['cform-title-font-size'] ?>px;
 		<?php } else { ?>

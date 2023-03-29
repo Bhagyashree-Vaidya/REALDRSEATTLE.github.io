@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
 		<?php if ( forminator_array_value_exists( $properties, 'select-border-static' ) && !empty( $properties['select-border-static'] ) ) { ?>
 			border-color: <?php echo $properties['select-border-static'] ?>;
 		<?php } else { ?>

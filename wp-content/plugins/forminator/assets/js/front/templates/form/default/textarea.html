@@ -1,7 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	<?php if ( forminator_array_value_exists( $properties, 'input-color' ) && !empty( $properties['input-color'] ) ) { ?>
-		.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-textarea {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-textarea {
 			color: <?php echo $properties['input-color'] ?>;
 		}
 	<?php } else { ?>

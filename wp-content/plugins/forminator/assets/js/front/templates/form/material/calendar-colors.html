@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	.forminator-custom-form-<?php echo $properties['form_id'] ?>.forminator-calendar--<?php echo $theme; ?>:before {
+.forminator-custom-form-<?php echo $properties['form_id'] ?>.forminator-calendar--<?php echo $theme; ?>:before {
 		<?php if ( forminator_array_value_exists( $properties, 'calendar-background' ) && !empty( $properties['calendar-background'] ) ) { ?>
 			background-color: <?php echo $properties['calendar-background'] ?>;
 		<?php } else { ?>

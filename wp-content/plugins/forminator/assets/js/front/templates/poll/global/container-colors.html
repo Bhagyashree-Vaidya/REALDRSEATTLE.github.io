@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'poll-colors' ) ) { ?>
-
-	.forminator-ui.forminator-poll#forminator-module-<?php echo $properties['form_id'] ?> {
+.forminator-ui.forminator-poll#forminator-module-<?php echo $properties['form_id'] ?> {
 		<?php if ( forminator_array_value_exists( $properties, 'box_border' ) && !empty( $properties['box_border'] ) ) { ?>
 			border-color: <?php echo $properties['box_border'] ?>;
 		<?php } else { ?>

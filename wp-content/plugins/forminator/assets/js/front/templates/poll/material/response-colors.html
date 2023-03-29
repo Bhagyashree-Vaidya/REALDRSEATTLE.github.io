@@ -1,7 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'poll-colors' ) ) { ?>
-
-	<?php // Success. ?>
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-response-message.forminator-success {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-response-message.forminator-success {
 		<?php if ( forminator_array_value_exists( $properties, 'response-success-border' ) && !empty( $properties['response-success-border'] ) ) { ?>
 			box-shadow: inset 4px 0 0 0 <?php echo $properties['response-success-border'] ?>, 1px 1px 4px 0 rgba(0,0,0,0.3);
 			-moz-box-shadow: inset 4px 0 0 0 <?php echo $properties['response-success-border'] ?>, 1px 1px 4px 0 rgba(0,0,0,0.3);

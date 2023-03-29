@@ -1,7 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	<?php if ( forminator_array_value_exists( $properties, 'cform-form-background' ) && !empty( $properties['cform-form-background'] ) ) { ?>
-		#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> {
+#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> {
 			background-color: <?php echo $properties['cform-form-background'] ?>;
 		}
 	<?php } else { ?>

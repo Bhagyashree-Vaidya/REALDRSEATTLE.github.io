@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'cform-color-settings' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-button-next {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-button-next {
 		<?php if ( forminator_array_value_exists( $properties, 'next-background-static' ) && !empty( $properties['next-background-static'] ) ) { ?>
 			background-color: <?php echo $properties['next-background-static'] ?>;
 		<?php } else { ?>

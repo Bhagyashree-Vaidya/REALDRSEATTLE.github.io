@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'form-font-family' ) ) { ?>
-
-	.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-button-back {
+.forminator-ui#forminator-module-<?php echo $properties['form_id'] ?>.forminator-design--<?php echo $theme; ?> .forminator-button-back {
 		<?php if ( forminator_array_value_exists( $properties, 'cform-pagination-buttons-font-size' ) ) { ?>
 			font-size: <?php echo $properties['cform-pagination-buttons-font-size'] ?>px;
 		<?php } else { ?>

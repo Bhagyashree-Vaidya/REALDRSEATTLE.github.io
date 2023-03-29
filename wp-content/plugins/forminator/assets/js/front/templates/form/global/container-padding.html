@@ -1,6 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'form-padding' ) ) { ?>
-
-	#forminator-module-<?php echo $properties['form_id'] ?>:not(.select2-dropdown) {
+#forminator-module-<?php echo $properties['form_id'] ?>:not(.select2-dropdown) {
 		<?php if ( forminator_array_value_exists( $properties, 'form-padding-top' ) ) { ?>
 			padding-top: <?php echo $properties['form-padding-top'] ?>px;
 		<?php } else { ?>

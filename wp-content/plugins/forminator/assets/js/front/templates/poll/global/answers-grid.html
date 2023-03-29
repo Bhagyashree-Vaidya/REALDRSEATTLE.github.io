@@ -1,8 +1,4 @@
-<?php if ( forminator_array_value_exists( $properties, 'visual_style' ) && ( $properties['visual_style'] == 'grid' ) ) { ?>
-
-	<?php if ( isset( $properties['enable_images'] ) && $properties['enable_images'] == '1' ) { ?>
-
-		#forminator-module-<?php echo $properties['form_id'] ?> .forminator-poll--grid {
+#forminator-module-<?php echo $properties['form_id'] ?> .forminator-poll--grid {
 			display: -webkit-box;
 			display: -ms-flexbox;
 			display: flex;
